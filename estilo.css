@@ -1,0 +1,11 @@
+body {
+  height: 200vh;
+  overflow: auto;
+}
+
+.textoDer {
+  position: fixed;
+  top: 40%;
+  right: 10%;
+  font-size: 12em;
+}
