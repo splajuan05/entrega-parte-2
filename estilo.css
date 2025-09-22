@@ -1,11 +1,18 @@
 body {
   height: 200vh;
   overflow: auto;
+  background-color: black;
+
 }
 
 .textoDer {
   position: fixed;
   top: 40%;
   right: 10%;
-  font-size: 12em;
+  font-size: 4em;
+}
+
+.claseImg{
+  height: 135vh;
+  
 }
