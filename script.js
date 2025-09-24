@@ -11,24 +11,24 @@ const escenas = [
 	color: "#07dcf3ff"
   },
   { 
-    texto: "A simple vista, desde la Tierra y en una noche oscura sin contaminación lumínica, podemos ver entre 2.000 y 5.000 estrellas en el cielo", 
+    texto: "Podemos ver entre 2.000 y 5.000 estrellas en el cielo", 
     img: "https://img.freepik.com/foto-gratis/hermosas-estre…turno_181624-622.jpg?semt=ais_incoming&w=740&q=80",
 	color: "#07dcf3ff"
   },
   { 
-    texto: "1. Órbita baja terrestre (200–2.000 km)", 
+    texto: "Órbita baja terrestre (200–2.000 km)", 
     img: "https://www.internetsociety.org/wp-content/uploads/2022/03/leo-sats-2-min.jpg",
 	color: "#ffff00"
   },
   { 
-    texto: "2. Órbita media y geoestacionaria (2.000–36.000 km)", 
+    texto: "Órbita media y geoestacionaria (2.000–36.000 km)", 
     img: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Geosynchronous_orbit.gif",
-	color: "#125abfff"
+	color: "#07dcf3ff"
   },
   { 
-    texto: "La Luna (~384.400 km)", 
+    texto: "La Luna (384.400 km)", 
     img: "https://content.nationalgeographic.com.es/medio/2022/10/03/luna_eedd0b00_800x533.jpg",
-	color: "#ffffffff"
+	color: "#ffff00"
   },
   { 
     texto: "Marte (54–400 millones km))", 
@@ -46,18 +46,18 @@ const escenas = [
 	color: "#ffff00"
   },
    { 
-    texto: "Estrellas cercanas (4,24 años luz = 40 billones de km)", 
+    texto: "Estrellas cercanas (4,24 años luz o 40 billones de km)", 
     img: "https://www.nasa.gov/wp-content/uploads/2023/03/alphacen.jpg",
 	color: "#ffff00"
   },
    { 
-    texto: "Escala galáctica ( 2,5 millones de años luz)", 
-    img: "https://cdn.eso.org/images/newsfeature/eso1536a.jpg",
+    texto: "Escala galáctica (2,5 millones de años luz)", 
+    img: "https://science.nasa.gov/wp-content/uploads/2023/04/14-096-el-gordo-jpg.webp",
 	color: "#ffff00"
   },
    { 
     texto: "Universo observable (46.500 millones de años luz de radio)", 
-    img: "https://astronoo.com/images/articles/univers-observable.webp",
+    img: "https://astronomas.org/files/images/topics/headers/cumulos_galaxias.jpg",
 	color: "#ffff00"
   },
   // ... agrega el resto
@@ -85,8 +85,8 @@ const paso = alturaVentana / escenas.length - 1;
 
 function onScroll(container) {
 const contenedor = document.getElementById("contenedor");
-document.body.appendChild(imagen);
-document.body.appendChild(texto);
+contenedor.appendChild(imagen);
+contenedor.appendChild(texto);
 
 	const scrollTop = container ? container.scrollTop : window.pageYOffset;
 
