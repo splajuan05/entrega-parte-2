@@ -13,10 +13,10 @@ body {
 
 .textoDer {
   position: fixed;
-  font-style:oblique);
+  font-style:oblique;
   top: 89%;
-  right: 30%;
-  font-size: 2.3em;
+  left: 3%;
+  font-size: 2.5em;
 }
 
 .claseImg{
